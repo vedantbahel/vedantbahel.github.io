@@ -13,6 +13,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
  .topnav {
   background-color: #333;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
 }
 
  .topnav a {
@@ -49,7 +53,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
   
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="w3-content w3-margin-top" id="home" style="margin-top: 100px !important; max-width:1400px; scroll-margin-top: 100px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -130,7 +134,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
 
 
-      <div class="w3-container w3-card w3-white">
+      <div class="w3-container w3-card w3-white" id="publications" style="scroll-margin-top: 100px;">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Publication</h2>
         <div class="w3-container">
             <h3> Conference Papers</h3>
